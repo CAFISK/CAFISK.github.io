@@ -27,16 +27,16 @@
 <meta property="og:site_name" content="沙鳞鱼鱼子">
 <meta property="og:description" content="基于python的tkinter库实现的简单桌宠">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/stand.png">
-<meta property="og:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/run.png">
-<meta property="og:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/xulie.png">
+<meta property="og:image" content="https://fishflavoredroser.github.io/images/DesktopPet/stand.png">
+<meta property="og:image" content="https://fishflavoredroser.github.io/images/DesktopPet/run.png">
+<meta property="og:image" content="https://fishflavoredroser.github.io/images/DesktopPet/xulie.png">
 <meta property="article:published_time" content="2021-06-27T09:58:31.000Z">
-<meta property="article:modified_time" content="2021-06-27T15:31:15.718Z">
+<meta property="article:modified_time" content="2021-06-27T15:36:30.300Z">
 <meta property="article:author" content="Fishyko">
 <meta property="article:tag" content="python">
 <meta property="article:tag" content="tkinter">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/stand.png">
+<meta name="twitter:image" content="https://fishflavoredroser.github.io/images/DesktopPet/stand.png">
 
 
 <link rel="canonical" href="https://fishflavoredroser.github.io/2021/06/27/DesktopPet/">
@@ -200,7 +200,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-06-27 17:58:31 / 修改时间：23:31:15" itemprop="dateCreated datePublished" datetime="2021-06-27T17:58:31+08:00">2021-06-27</time>
+      <time title="创建时间：2021-06-27 17:58:31 / 修改时间：23:36:30" itemprop="dateCreated datePublished" datetime="2021-06-27T17:58:31+08:00">2021-06-27</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -225,12 +225,12 @@
     <div class="post-body" itemprop="articleBody">
         <p>突发奇想想用python实现一个桌宠，这次就来试试看！</p>
 <h2 id="动画序列帧"><a href="#动画序列帧" class="headerlink" title="动画序列帧"></a>动画序列帧</h2><p>&ensp;&ensp;&ensp;&ensp;这次想要做一个自家OC的桌宠，所以模型就自己画啦，已经准备好序列图的话就可以忽略此步骤啦。</p>
-<p><img src="../images/DesktopPet/stand.png" alt="桌宠立绘" title="桌宠立绘"></p>
+<p><img src="/images/DesktopPet/stand.png" alt="桌宠立绘" title="桌宠立绘"></p>
 <p>&ensp;&ensp;&ensp;&ensp;然后给模型做好动画。我使用的是<strong>Unity+Taecg插件</strong>导出序列帧，同样可以使用功能相似的spine或者龙骨来制作。</p>
 <p>&ensp;&ensp;&ensp;&ensp;过程大概如图~</p>
-<p><img src="../images/DesktopPet/run.png" alt="Unity+La生成序列帧" title="移动动画"></p>
+<p><img src="/images/DesktopPet/run.png" alt="Unity+La生成序列帧" title="移动动画"></p>
 <p>&ensp;&ensp;&ensp;&ensp;得到这样的序列帧，区分好文件夹即可：</p>
-<p><img src="../images/DesktopPet/xulie.png" alt="序列帧" title="序列帧"></p>
+<p><img src="/images/DesktopPet/xulie.png" alt="序列帧" title="序列帧"></p>
 <p>&ensp;&ensp;&ensp;&ensp;目前我只做了行走和站立两个动画，以后会慢慢补充。</p>
 <h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>&ensp;&ensp;&ensp;&ensp;这次决定使用Tkinter来实现。我几乎没有接触过GUI，所以这次补习了一下基础知识。（读文档太痛苦了我恨……）</p>
 <p>&ensp;&ensp;&ensp;&ensp;还没写完：<a href="/2021/06/27/tkinterStudy/" title="tkinter学习笔记">tkinter学习笔记</a></p>
