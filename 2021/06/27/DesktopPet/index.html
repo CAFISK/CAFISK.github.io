@@ -20,27 +20,33 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"fishflavoredroser.github.io","root":"/","images":"/images","scheme":"Pisces","version":"8.5.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
-<meta name="description" content="如题如题，好激动鸭！">
+<meta name="description" content="基于python的tkinter库实现的简单桌宠">
 <meta property="og:type" content="article">
-<meta property="og:title" content="鱼鱼子终于拥有第一篇博客啦！">
-<meta property="og:url" content="https://fishflavoredroser.github.io/2021/06/26/my-first-blog/index.html">
+<meta property="og:title" content="用Python做一个桌宠">
+<meta property="og:url" content="https://fishflavoredroser.github.io/2021/06/27/DesktopPet/index.html">
 <meta property="og:site_name" content="沙鳞鱼鱼子">
-<meta property="og:description" content="如题如题，好激动鸭！">
+<meta property="og:description" content="基于python的tkinter库实现的简单桌宠">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-06-26T15:42:14.000Z">
-<meta property="article:modified_time" content="2021-06-27T08:05:10.034Z">
+<meta property="og:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/stand.png">
+<meta property="og:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/run.png">
+<meta property="og:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/xulie.png">
+<meta property="article:published_time" content="2021-06-27T09:58:31.000Z">
+<meta property="article:modified_time" content="2021-06-27T15:31:15.718Z">
 <meta property="article:author" content="Fishyko">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="tkinter">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://fishflavoredroser.github.io/2021/06/27/images/DesktopPet/stand.png">
 
 
-<link rel="canonical" href="https://fishflavoredroser.github.io/2021/06/26/my-first-blog/">
+<link rel="canonical" href="https://fishflavoredroser.github.io/2021/06/27/DesktopPet/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://fishflavoredroser.github.io/2021/06/26/my-first-blog/","path":"2021/06/26/my-first-blog/","title":"鱼鱼子终于拥有第一篇博客啦！"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://fishflavoredroser.github.io/2021/06/27/DesktopPet/","path":"2021/06/27/DesktopPet/","title":"用Python做一个桌宠"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>鱼鱼子终于拥有第一篇博客啦！ | 沙鳞鱼鱼子</title>
+<title>用Python做一个桌宠 | 沙鳞鱼鱼子</title>
   
 
 
@@ -107,7 +113,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A5%BD%E6%B6%88%E6%81%AF%EF%BC%8C%E5%A5%BD%E6%B6%88%E6%81%AF%EF%BC%81%E5%8E%9F%E5%9C%B0%E8%BA%BA%E5%B9%B3%E7%9A%84%E9%B1%BC%E9%B1%BC%E5%AD%90%E7%BB%88%E4%BA%8E%E5%BC%80%E5%A7%8B%E5%86%99%E4%B8%9C%E8%A5%BF%E4%BA%86%EF%BC%81"><span class="nav-number">1.</span> <span class="nav-text">好消息，好消息！原地躺平的鱼鱼子终于开始写东西了！</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A8%E7%94%BB%E5%BA%8F%E5%88%97%E5%B8%A7"><span class="nav-number">1.</span> <span class="nav-text">动画序列帧</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0"><span class="nav-number">2.</span> <span class="nav-text">代码实现</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -169,7 +175,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://fishflavoredroser.github.io/2021/06/26/my-first-blog/">
+    <link itemprop="mainEntityOfPage" href="https://fishflavoredroser.github.io/2021/06/27/DesktopPet/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -182,7 +188,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          鱼鱼子终于拥有第一篇博客啦！
+          用Python做一个桌宠
         </h1>
 
         <div class="post-meta-container">
@@ -192,30 +198,24 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2021-06-26 23:42:14" itemprop="dateCreated datePublished" datetime="2021-06-26T23:42:14+08:00">2021-06-26</time>
+      <time title="创建时间：2021-06-27 17:58:31 / 修改时间：23:31:15" itemprop="dateCreated datePublished" datetime="2021-06-27T17:58:31+08:00">2021-06-27</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-06-27 16:05:10" itemprop="dateModified" datetime="2021-06-27T16:05:10+08:00">2021-06-27</time>
-      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%97%A5%E5%B8%B8/" itemprop="url" rel="index"><span itemprop="name">日常</span></a>
+          <a href="/categories/%E5%AD%A6%E4%B9%A0-%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">学习/技术</span></a>
         </span>
     </span>
 
   
 </div>
 
-            <div class="post-description">如题如题，好激动鸭！</div>
+            <div class="post-description">基于python的tkinter库实现的简单桌宠</div>
         </div>
       </header>
 
@@ -223,22 +223,18 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p><em>下面是正文咯</em></p>
-<h1 id="好消息，好消息！原地躺平的鱼鱼子终于开始写东西了！"><a href="#好消息，好消息！原地躺平的鱼鱼子终于开始写东西了！" class="headerlink" title="好消息，好消息！原地躺平的鱼鱼子终于开始写东西了！"></a>好消息，好消息！原地躺平的鱼鱼子终于开始写东西了！</h1><p><del>可能并没有</del></p>
-<hr>
-<p>2021年6月26日，在<del>抄袭了</del>理解了大佬们的个人博客搭建思路后，鱼鱼也弄出来了一个个人博客。虽然并没有完成什么实质性的工作，但是要好好夸夸自己，耶比耶比！</p>
-<p>参考了这些文章：</p>
-<ul>
-<li><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html#%E5%86%99%E5%8D%9A%E5%AE%A2">使用hexo+github搭建免费个人博客详细教程</a></p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/linton1/article/details/90137367?ops_request_misc=&request_id=&biz_id=102&utm_term=github">详细的hexo+githubPage搭建个人博客</a></p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/li528405176/article/details/82810342?ops_request_misc=%7B%22request_id%22:%22162472114516780261939757%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=162472114516780261939757&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-82810342.first_rank_v2_pc_rank_v29_1&utm_term=.ssh&spm=1018.2226.3001.4187">SSH简介及两种远程登录的方法</a></p>
-</li>
-</ul>
-<p>大佬们好厉害鸭……</p>
-<p>只是第一篇博客啦，还没有想好要写什么，但是写了！今后还需要好好研究一下捏！</p>
-<p>开心！！</p>
+        <p>突发奇想想用python实现一个桌宠，这次就来试试看！</p>
+<h2 id="动画序列帧"><a href="#动画序列帧" class="headerlink" title="动画序列帧"></a>动画序列帧</h2><p>&ensp;&ensp;&ensp;&ensp;这次想要做一个自家OC的桌宠，所以模型就自己画啦，已经准备好序列图的话就可以忽略此步骤啦。</p>
+<p><img src="../images/DesktopPet/stand.png" alt="桌宠立绘" title="桌宠立绘"></p>
+<p>&ensp;&ensp;&ensp;&ensp;然后给模型做好动画。我使用的是<strong>Unity+Taecg插件</strong>导出序列帧，同样可以使用功能相似的spine或者龙骨来制作。</p>
+<p>&ensp;&ensp;&ensp;&ensp;过程大概如图~</p>
+<p><img src="../images/DesktopPet/run.png" alt="Unity+La生成序列帧" title="移动动画"></p>
+<p>&ensp;&ensp;&ensp;&ensp;得到这样的序列帧，区分好文件夹即可：</p>
+<p><img src="../images/DesktopPet/xulie.png" alt="序列帧" title="序列帧"></p>
+<p>&ensp;&ensp;&ensp;&ensp;目前我只做了行走和站立两个动画，以后会慢慢补充。</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>&ensp;&ensp;&ensp;&ensp;这次决定使用Tkinter来实现。我几乎没有接触过GUI，所以这次补习了一下基础知识。（读文档太痛苦了我恨……）</p>
+<p>&ensp;&ensp;&ensp;&ensp;还没写完：<a href="/2021/06/27/tkinterStudy/" title="tkinter学习笔记">tkinter学习笔记</a></p>
+<p>未完待续……</p>
 
     </div>
 
@@ -247,15 +243,22 @@
     
 
     <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"># python</a>
+              <a href="/tags/tkinter/" rel="tag"># tkinter</a>
+          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2021/06/26/my-first-blog/" rel="prev" title="鱼鱼子终于拥有第一篇博客啦！">
+                  <i class="fa fa-chevron-left"></i> 鱼鱼子终于拥有第一篇博客啦！
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/06/27/DesktopPet/" rel="next" title="用Python做一个桌宠">
-                  用Python做一个桌宠 <i class="fa fa-chevron-right"></i>
+                <a href="/2021/06/27/tkinterStudy/" rel="next" title="tkinter学习笔记">
+                  tkinter学习笔记 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
